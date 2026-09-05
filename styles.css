@@ -1,1 +1,81 @@
+/* Bước 3: Định dạng thẻ nội dung body (Font chữ & Kích thước font) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #222222;
+}
 
+/* Bước 4: Định dạng thẻ header (Màu nền) */
+header {
+    background-color: #0d3b66;
+    padding: 25px 10px;
+}
+
+/* Bước 5: Định dạng thẻ nav (Màu nền) */
+nav {
+    background-color: #f4d35e;
+    padding: 12px 0;
+}
+
+/* Bước 6: Định dạng thẻ main (Màu nền & Kích thước font) */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 30px;
+    max-width: 900px;
+    margin: 20px auto;
+    min-height: 50vh;
+}
+
+/* Bước 7: Định dạng thẻ footer (Màu nền) */
+footer {
+    background-color: #0d3b66;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Bước 8: Định dạng thẻ li (Kiểu hiển thị display & Chiều rộng width) */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    width: 140px;
+}
+
+/* Bước 9: Định dạng thẻ h1 (Căn chỉnh văn bản, Font chữ & Màu sắc) */
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Bước 10: Định dạng thẻ p (Chiều cao dòng line-height) */
+p {
+    line-height: 1.8;
+}
+
+/* CSS Bổ sung: Định dạng đường link để chuẩn WAVE không báo lỗi tương phản */
+nav a {
+    color: #0d3b66;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover, nav a:focus {
+    text-decoration: underline;
+}
+
+footer p {
+    color: #ffffff;
+    margin: 0;
+}
